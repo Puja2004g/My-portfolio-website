@@ -84,7 +84,7 @@ function Projects() {
                     </div>
                 </div>
 
-                <p>All my projects are available on <a href="https://github.com/Puja2004g" target="_blank">Github</a>.</p>
+                <p className="github">All my projects are available on <a href="https://github.com/Puja2004g" target="_blank">Github</a>.</p>
             </div>
         </div>
     )

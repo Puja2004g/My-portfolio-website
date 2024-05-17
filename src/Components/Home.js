@@ -1,12 +1,13 @@
 import "./styles/Home.css";
 import { Link, Route, Routes } from 'react-router-dom';
 import About from "./About";
+import pic from "./Assets/Profile2.jpg";
 
 function Home() {
     return (
         <div className="Acontainer">
             <div className="picture">
-                <img src="https://images.unsplash.com/photo-1681622341243-f57c21b519f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2lybCUyMGluJTIwZm9ybWFsJTIwd2l0aCUyMGdsYXNzZXN8ZW58MHx8MHx8fDA%3D" />
+                <img src={pic} />
             </div>
             <div className="info">
                 <h1>Hi! I am Puja Guchhait</h1>

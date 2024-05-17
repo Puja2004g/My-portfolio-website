@@ -4,6 +4,8 @@ import { Route, Routes, Link } from 'react-router-dom';
 import Projects from './Components/Projects';
 import Contacts from './Components/Contacts';
 import Footer from './Components/Footer';
+import calc from "./Components/Assets/Calculator.png";
+import drum from "./Components/Assets/Drum_kit.png";
 import './App.css';
 
 function App() {
@@ -11,20 +13,20 @@ function App() {
     <div>
       <div className='container'>
         <h1 className='logo'>Puja</h1>
-          <ul className='nav'>
-            <Link to="/"><li>Home</li></Link>
-            <Link to="/about"><li>About</li></Link>
-            <Link to="/projects"><li>Projects</li></Link>
-            <Link to="/contacts"><li>Contacts</li></Link>
-          </ul>
+        <ul className='nav'>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/about"><li>About</li></Link>
+          <Link to="/projects"><li>Projects</li></Link>
+          <Link to="/contacts"><li>Contacts</li></Link>
+        </ul>
       </div>
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contacts' element={<Contacts />} />
-        </Routes>
-        <Footer />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contacts' element={<Contacts />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

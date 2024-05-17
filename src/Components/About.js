@@ -1,5 +1,5 @@
 import "./styles/About.css";
-import puja from "./Assets/Profile1.jpg"
+import puja from "./Assets/Profile.jpg"
 function About() {
     return (
         <div className="about">
