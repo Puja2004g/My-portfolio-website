@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body {
+    margin: 30px;
+    padding: 20px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    font-size: 20px;
+}
+
+.form input,
+textarea,
+button {
+    border: 1px solid gray;
+    margin: 15px;
+}
+
+.form input,
+textarea {
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 10%;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: skyblue;
+}

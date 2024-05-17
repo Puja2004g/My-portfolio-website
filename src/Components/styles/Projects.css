@@ -1,0 +1,41 @@
+.title{
+    text-align: center;
+}
+
+.divide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.div1, .div2, .div3, .div4, .div5,.div6, .div7 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0rem 1rem 5rem;
+}
+
+.div1 div, .div2 div, .div3 div, .div4 div, .div5 div, .div6 div, .div7 div {
+    margin: 10px 40px 20px 0px;
+}
+
+
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img {
+    width: 600px;
+    height: 350px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    font-size: medium;
+    background-color: rgb(89, 174, 207);
+    font-weight: bold;
+    color: black;
+}
+
+.divide p{
+    text-align: center;
+    margin-bottom: 40px;
+}
