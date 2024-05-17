@@ -7,8 +7,7 @@ function About() {
             <img className="profile" src={puja} />
             <div>
                 <p className="para">
-                    I am a B.Tech student in Electronics and Computer Science Engineering at Kalinga Institute of Industrial Technology in Bhubaneswar, Odisha. I'm in my fourth year now.
-                    Although I'm originally from Medinipur, West Bengal, I was born and raised in Giridih, Jharkhand.
+                    I am a B.Tech student in Electronics and Computer Science Engineering at Kalinga Institute of Industrial Technology in Bhubaneswar, Odisha. I'm in my fourth year now.I did my 10th and 12th from CBSE board in the year of 2019 and 2021 respectively. Although I'm originally from Medinipur, West Bengal, I was born and raised in Giridih, Jharkhand and did my scholling from there.
                 </p>
                 <p>
                     I worked as a trainee at TATA Steel on a project titled "Remote load cell calibration of hot metal cranes" in the "Steel making electrical maintenance" department at Jamshedpur, Jharkhand.
